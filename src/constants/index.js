@@ -1,0 +1,25 @@
+// login.js
+
+import React from "react";
+
+const LOGIN_FORM_FIELDS = {
+  PHONE: "PHONE",
+  EMAIL: "EMAIL",
+  VERFI_CODE: "VERFICATION CODE",
+  REMEMBER_ME: "REMEMBER ME",
+};
+
+const USER_TYPE = {
+  NANNY: "NANNY",
+  CUSTOMER: "CUSTOMER",
+};
+
+const VERFI_CODE_STATUS = {
+  SEND: "SEND",
+  FREEZE: "FREEZE",
+  RESEND: "RESEND",
+};
+
+const JOB_TYPE = {};
+
+export { LOGIN_FORM_FIELDS, USER_TYPE, VERFI_CODE_STATUS, JOB_TYPE };

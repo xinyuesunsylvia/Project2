@@ -1,0 +1,28 @@
+.footer {
+  background-color: black; /* 设置背景颜色为黑色 */
+  display: flex; /* 设置为 Flexbox 布局 */
+  align-items: center; /* 在交叉轴上居中对齐元素 */
+  padding: 10px; /* 可根据需要设置内边距 */
+  justify-content: space-betweens; /* 将内容推到容器的底部 */
+  position: fixed; /* 将 footer 固定在页面底部 */
+  bottom: 0; /* 距离页面底部的距离为 0 */
+  left: 0; /* footer 相对于页面左边定位为 0 */
+  right: 0;
+}
+
+.footer button {
+  background-color: transparent; /* 设置背景颜色为透明 */
+  color: white;
+  font-size: 14px; /* 设置字体大小为14px，根据需要进行调整 */
+  border: none; /* 移除按钮的边框 */
+  padding: 20px; /* 根据需要设置内边距 */
+  border-radius: 10px; /* 设置按钮圆角 */
+  cursor: pointer;
+}
+
+.footer div {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: auto;
+}
